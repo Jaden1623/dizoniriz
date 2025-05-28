@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formula 1 Merch - Return Policy</title>
+  <style>
+    /* Basic Reset & Fonts */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #fff;
+      color: #222;
+    }
+
+    /* Link styles */
+    a {
+      color: #e10600;
+      text-decoration: none;
+    }
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+      outline: none;
+    }
+
+    /* Skip navigation link - hidden off-screen until focused */
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      z-index: 100;
+    }
+    /* Show skip link visibly on keyboard focus */
+    .skip-link:focus {
+      left: 10px;
+      top: 10px;
+      width: auto;
+      height: auto;
+      padding: 8px 16px;
+      background: #e10600;
+      color: white;
+      font-weight: bold;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    /* Header styling */
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px 15px;
+    }
+    header h1 {
+      margin: 0 0 10px 0;
+      font-weight: 700;
+    }
+
+    /* Navigation menu styles */
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-weight: 600;
+    }
+    nav a {
+      background-color: #e10600;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+    /* Style for the current page link */
+    nav a[aria-current="page"] {
+      background-color: #a70300;
+      cursor: default;
+    }
+    /* Hover and focus styles for navigation links */
+    nav a:hover:not([aria-current="page"]),
+    nav a:focus:not([aria-current="page"]) {
+      background-color: #c30d00;
+      outline: none;
+    }
+
+    /* Cart button styling */
+    .cart-button {
+      float: right;
+      margin-top: -50px;
+      background-color: #e10600;
+      color: white;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .cart-button:hover,
+    .cart-button:focus {
+      background-color: #c30d00;
+      outline: none;
+    }
+
+    /* Main content container */
+    main.container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 15px;
+    }
+
+    /* Headings styling */
+    h2 {
+      color: #e10600;
+      margin-bottom: 20px;
+    }
+    h3 {
+      margin-top: 30px;
+      color: #b30b00;
+    }
+
+    /* List styling */
+    ul {
+      margin-left: 20px;
+    }
+
+    /* Footer styling */
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 15px;
+      margin-top: 60px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Skip navigation link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <!-- Site Title -->
+    <h1>Formula 1 Merch</h1>
+    <!-- Cart button linking to cart page -->
+    <a href="cart.html" aria-label="View Cart">
+      <button class="cart-button">🛒 View Cart</button>
+    </a>
+
+    <!-- Main navigation menu -->
+    <nav>
+      <a href="index.html">Intro</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="mission-vision.html">Mission & Vision</a>
+      <a href="designer.html">Designer</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+      <a href="faqs.html">FAQs</a>
+      <!-- Current page link -->
+      <a href="return-policy.html" aria-current="page">Return Policy</a>
+    </nav>
+  </header>
+
+  <!-- Main content section -->
+  <main id="main-content" class="container">
+    <section class="return-policy-section">
+      <h2>Return Policy</h2>
+      <p>At Formula 1 Merch, your satisfaction is our priority. If you're not completely happy with your purchase, we're here to help.</p>
+
+      <!-- Return conditions -->
+      <h3>Returns</h3>
+      <p>You have 30 calendar days from the date you received your item(s) to request a return.</p>
+      <ul>
+        <li>Items must be unused, in original packaging, and in the same condition you received them.</li>
+        <li>Some items such as custom or personalized products are non-returnable.</li>
+      </ul>
+
+      <!-- Return process -->
+      <h3>How to Return an Item</h3>
+      <p>To initiate a return, please contact our customer support at <a href="mailto:support@f1merch.com">support@f1merch.com</a> with your order number and reason for return.</p>
+      <p>We will provide you with return instructions and the shipping address.</p>
+
+      <!-- Refund info -->
+      <h3>Refunds</h3>
+      <p>Once your return is received and inspected, we will notify you of the approval or rejection of your refund.</p>
+      <p>Approved refunds will be processed to your original payment method within 7 business days.</p>
+
+      <!-- Exchange policy -->
+      <h3>Exchanges</h3>
+      <p>We currently do not offer direct exchanges. Please return the original item for a refund and place a new order for the desired product.</p>
+
+      <!-- Shipping cost responsibility -->
+      <h3>Shipping Costs</h3>
+      <p>Return shipping costs are the responsibility of the customer unless the item received was defective or incorrect.</p>
+
+      <!-- Contact info -->
+      <h3>Contact Us</h3>
+      <p>If you have any questions about our return policy, please <a href="contact.html">contact us</a>.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Formula 1 Merch. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

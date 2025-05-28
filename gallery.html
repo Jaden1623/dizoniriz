@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic meta tags for character set and responsive viewport -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- Page title -->
+  <title>Formula 1 Merch</title>
+  
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <!-- Site title -->
+    <h1>Formula 1 Merch</h1>
+    
+    <!-- Cart button aligned to right -->
+    <div style="text-align: right; margin: 10px;">
+      <a href="cart.html">
+        <button style="background-color: #e10600; color: white; padding: 8px 14px; border: none; border-radius: 6px; cursor: pointer;">
+          🛒 View Cart
+        </button>
+      </a>
+    </div>
+
+    <!-- Main site navigation -->
+    <nav>
+      <a href="index.html">Intro</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="services.html">Services</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="mission-vision.html">Mission & Vision</a>
+      <a href="designer.html">Designer</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+      <a href="faqs.html">FAQs</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Gallery page heading and intro paragraph -->
+    <h2>Gallery</h2>
+    <p>Check out our collection of F1 team jackets below!</p>
+
+    <!-- Grid container for gallery items -->
+    <div class="gallery-grid">
+      
+      <!-- Single gallery item: Mercedes -->
+      <div class="gallery-item">
+        <a href="mercedes.html">
+          <img src="https://images.setel.com/width_828/setel-api-items/prod/item-images/1714622097916-2.jpg" alt="Mercedes Jacket" />
+          <h3>Mercedes-AMG Petronas</h3>
+        </a>
+        <button onclick="addToCart('Mercedes-AMG Petronas')">Add to Cart</button>
+        <button onclick="buyNow('Mercedes-AMG Petronas')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: Red Bull -->
+      <div class="gallery-item">
+        <a href="redbull.html">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQceoHN-iBiOJnxpQLIXKnF4IS9qCSMVu2gqA&s" alt="Red Bull Jacket" />
+          <h3>Red Bull Racing</h3>
+        </a>
+        <button onclick="addToCart('Red Bull Racing')">Add to Cart</button>
+        <button onclick="buyNow('Red Bull Racing')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: Ferrari -->
+      <div class="gallery-item">
+        <a href="ferrari.html">
+          <img src="https://realityracing.co/cdn/shop/files/1_bed50737-9ef7-4b85-9aef-ff9899c1856e.jpg?v=1728484364" alt="Ferrari Jacket" />
+          <h3>Scuderia Ferrari</h3>
+        </a>
+        <button onclick="addToCart('Scuderia Ferrari')">Add to Cart</button>
+        <button onclick="buyNow('Scuderia Ferrari')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: McLaren -->
+      <div class="gallery-item">
+        <a href="mclaren.html">
+          <img src="https://cosplaystreet.com/cdn/shop/files/mclaren_black_2.jpg?v=1723008157" alt="McLaren Jacket" />
+          <h3>McLaren F1 Team</h3>
+        </a>
+        <button onclick="addToCart('McLaren F1 Team')">Add to Cart</button>
+        <button onclick="buyNow('McLaren F1 Team')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: Aston Martin -->
+      <div class="gallery-item">
+        <a href="astonmartin.html">
+          <img src="https://cdn.webshopapp.com/shops/190718/files/458675626/aston-martin-team-hybrid-jacket-green.jpg" alt="Aston Martin Jacket" />
+          <h3>Aston Martin Aramco</h3>
+        </a>
+        <button onclick="addToCart('Aston Martin Aramco')">Add to Cart</button>
+        <button onclick="buyNow('Aston Martin Aramco')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: Alpine -->
+      <div class="gallery-item">
+        <a href="alpine.html">
+          <img src="https://images.footballfanatics.com/alpine/alpine-f1-team-2024-rain-jacket_ss5_p-200837889+pv-2+u-mxazpxczp49uvhjqycvu+v-kxmca7jankosiad24v00.jpg?_hv=2&w=900" alt="Alpine Jacket" />
+          <h3>BWT Alpine F1 Team</h3>
+        </a>
+        <button onclick="addToCart('BWT Alpine F1 Team')">Add to Cart</button>
+        <button onclick="buyNow('BWT Alpine F1 Team')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: Williams -->
+      <div class="gallery-item">
+        <a href="williams.html">
+          <img src="https://pulseracegear.com/cdn/shop/files/Untitleddesign_20240918_071608_0000_grande.jpg?v=1726626305" alt="Williams Jacket" />
+          <h3>Williams Racing</h3>
+        </a>
+        <button onclick="addToCart('Williams Racing')">Add to Cart</button>
+        <button onclick="buyNow('Williams Racing')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: AlphaTauri -->
+      <div class="gallery-item">
+        <a href="alphatauri.html">
+          <img src="https://images.footballfanatics.com/vcarb/scuderia-alphatauri-2022-team-softshell-jacket-unisex_ss4_p-13301124+pv-1+u-jg5n8y9gjok9b6zhg1gt+v-ea478e0963f94a9a86b8e34d740f78c0.jpg?_hv=2&w=600" alt="AlphaTauri Jacket" />
+          <h3>Visa Cash App RB</h3>
+        </a>
+        <button onclick="addToCart('Visa Cash App RB')">Add to Cart</button>
+        <button onclick="buyNow('Visa Cash App RB')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: Sauber -->
+      <div class="gallery-item">
+        <a href="sauber.html">
+          <img src="https://i.ebayimg.com/images/g/TJEAAOSwE3lj142g/s-l1200.jpg" alt="Sauber Jacket" />
+          <h3>Stake F1 Team Kick Sauber</h3>
+        </a>
+        <button onclick="addToCart('Stake F1 Team Kick Sauber')">Add to Cart</button>
+        <button onclick="buyNow('Stake F1 Team Kick Sauber')">Buy Now</button>
+      </div>
+
+      <!-- Single gallery item: Haas -->
+      <div class="gallery-item">
+        <a href="haas.html">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51VHOiJ1m3L._AC_UL210_SR210,210_.jpg" alt="Haas Jacket" />
+          <h3>Haas F1 Team</h3>
+        </a>
+        <button onclick="addToCart('Haas F1 Team')">Add to Cart</button>
+        <button onclick="buyNow('Haas F1 Team')">Buy Now</button>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <!-- Footer copyright -->
+    <p>&copy; 2025 Formula 1 Merch. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to external JavaScript for cart and purchase functionality -->
+  <script src="script.js"></script>
+</body>
+</html>

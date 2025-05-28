@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Character encoding -->
+  <meta charset="UTF-8">
+  
+  <!-- Page title -->
+  <title>My Cart</title>
+  
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header section with page heading -->
+  <header>
+    <h1>Your Shopping Cart</h1>
+  </header>
+  
+  <!-- Main content area -->
+  <main>
+    <!-- Container where cart items will be dynamically loaded -->
+    <div id="cart-items"></div>
+    
+    <!-- Link to go back to the gallery to continue shopping -->
+    <a href="gallery.html">← Continue Shopping</a>
+  </main>
+  
+  <!-- Footer with copyright -->
+  <footer>
+    <p>&copy; 2025 Formula 1 Merch</p>
+  </footer>
+  
+  <!-- External JavaScript file -->
+  <script src="script.js"></script>
+  
+  <!-- Inline script to call function that loads cart items on page load -->
+  <script>
+    loadCartItems();
+  </script>
+</body>
+</html>
